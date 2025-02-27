@@ -255,7 +255,7 @@ to deterministically say which suspendable function will transfer the control to
 suspendable function, via the event loop. In other words, the control is transferred 
 **non-deterministically** amongst the suspendable functions.
 
-Finally, uou could reasonably argue that the pseudocode in the
+Finally, you could reasonably argue that the pseudocode in the
 [improved implementation](/suspendables/control/#improved-implementation) actually uses explicit 
 control transfer. This is correct! Implicit control transfer mechanism is indeed built upon
 the explicit control transfer mechanism with the event loop being the invisble control tranfer 
