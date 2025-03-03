@@ -71,7 +71,7 @@ next(coro)
 
 ### Automatic drive
 We cannot use `next` to drive coroutine objects. The coroutine equivalent to `next` 
-is bit more complicated because imnplicit control transfer suspendables need an event loop.
+is bit more complicated because implicit control transfer suspendables need an event loop.
 The event loop invisibly and implicitly transfers the control between coroutines.
 We have many choices for an event loop but we will use `asyncio`, which is the default 
 event loop that comes with the python standard library.
